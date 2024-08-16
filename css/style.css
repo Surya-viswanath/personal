@@ -581,7 +581,7 @@ h1, h2, h3, h4, h5, h6 {
     @media (max-width: 991.98px) {
       .site-blocks-cover .img-wrap {
         /* width: 100%; */
-        width: 50%;
+        width: 70%;
         /* right: 0%; */
         left: 0%;
         top: 0; }
@@ -597,9 +597,14 @@ h1, h2, h3, h4, h5, h6 {
           bottom: 0; } 
           .site-blocks-cover .intro {
             text-align: right;
-            
-         
-           
+            margin-top: -50%;
+          }
+
+          .site-blocks-cover .intro  .heading h1{
+            font-size: 34px;
+          }
+          .site-blocks-cover .intro .text p{
+            font-size: 20px;
           }
         }
     .site-blocks-cover .img-wrap .slide {
